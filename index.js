@@ -17,11 +17,6 @@ function createWindow() {
     mainWindow = null;
   })
 
-  mainWindow.on('load', () => {
-    ipcRenderer.send('change-text-element', "ping")
-    console.log('load')
-  });
-
   XinputAddon.watch(function (data) {
     if( mainWindow !== null) {
       mainWindow.webContents.send('info', { msg: 'pen ' + data });
@@ -30,12 +25,6 @@ function createWindow() {
 
 
 }
-
-const { ipcMain } = require('electron')
-ipcMain.on('asynchronous-message', (event, arg) => {
-  console.log(arg)  // prints "ping"
-  event.sender.send('asynchronous-reply', 'pong')
-})
 
 app.on('ready', createWindow);
 
