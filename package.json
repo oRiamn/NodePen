@@ -1,0 +1,36 @@
+{
+  "name": "nodepen",
+  "version": "0.0.1",
+  "description": "Text editor including drawing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/electron .",
+    "make": "./node_modules/.bin/node-gyp . configure build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oRiamn/NodePen.git"
+  },
+  "keywords": [
+    "text",
+    "editor",
+    "markdown",
+    "draw",
+    "wacom",
+    "tablet"
+  ],
+  "author": "Romain Durade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oRiamn/NodePen/issues"
+  },
+  "homepage": "https://github.com/oRiamn/NodePen#readme",
+  "dependencies": {
+    "node-gyp": "^3.6.2",
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
