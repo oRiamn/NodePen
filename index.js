@@ -21,7 +21,7 @@ function createWindow() {
     if( mainWindow !== null) {
       mainWindow.webContents.send('info', { msg: 'pen ' + data });
     }
-  }, "16");
+  }, "13");
 
 
 }

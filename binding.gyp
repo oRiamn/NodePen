@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "XinputAddon",
-      "sources": [ "./XinputAddon/main.cpp"],
+      "sources": [ "./XinputAddon/XinputAddon.cpp"],
       "include_dirs": [
       ],
       "libraries": [ 

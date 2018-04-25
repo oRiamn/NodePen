@@ -1,3 +1,5 @@
+.vscode
+
 # Built node-gyp stuff
 build/*
 
