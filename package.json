@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/oRiamn/NodePen#readme",
   "devDependencies": {
-    "node-gyp": "^3.6.2",
-    "electron": "^1.8.4"
+    "electron": "^1.8.8",
+    "node-gyp": "^3.8.0"
   },
   "dependencies": {
     "x11": "^2.3.0"
